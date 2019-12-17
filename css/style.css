@@ -146,5 +146,43 @@ img {
 }
 
 /* End Service Style 9 Css */
-
+/* Footer start */
+.footer{
+	background:#2C3E50;    	    
+}
+.footer-top{
+	margin-top:10px;	
+	padding:50px 0px 30px 0px;
+	text-align: center;
+}
+.footer-top p{
+	 color:#fff;
+	 font-size: 16px;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 400;
+}
+.footer-top p a{
+	color: #1abc9c;
+	outline:none;
+	text-decoration:none;
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 52px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/top_move.png) no-repeat 0px 0px;
+}
+.footer-top p {
+	
+	}
+.footer-top {
+		
+	}
 /*-- Media Queries Ends Here ---*/
