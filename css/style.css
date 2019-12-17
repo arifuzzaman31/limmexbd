@@ -1,0 +1,150 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
+.navbar {
+  width: 100%;
+  background-color: #424244;
+  overflow: auto;
+  color: #fff;
+  font-size: 16px;
+}
+.navbar a{
+	width: 100%;
+  	color: #fff;
+  	margin-top: 30px;
+}
+/*@media only screen and (max-width: 600px) {
+	.navbar {
+	  width: 100%;
+	  background-color: #151336;
+	  overflow: auto;
+	  color: #fff;
+	  font-weight: 200;
+	}
+}*/
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+/* Service Style 4 Css */
+.single-service {
+	margin-bottom: 60px;
+}
+.section-padding {
+	padding: 80px 0;
+}
+a.border-btn {
+	color: #fff;
+	background-color: #0bbbc1;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 3px;
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 16px;
+  -webkit-transition:.4s;
+  transition: .4s;
+  position:relative;
+  overflow:hidden;
+  z-index:10
+}
+
+a.border-btn:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: -100%;
+  border-radius: 3px;
+  -webkit-transition:.4s;
+  transition: .4s;
+  visibility: hidden;
+  z-index:-1
+}
+a.border-btn:hover {
+  visibility:visible;
+  top: 0;
+  text-decoration: none;
+
+}
+.single-service h3 {
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.single-service p {
+	font-weight: 200;
+	color: #333;
+	font-size: 16px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    /*text-align: center;*/
+}
+/* Service Style 9 Css */
+.style-9 .single-service {
+	/*background-image: linear-gradient(#f7f6f3 40%, #066c84 20%,#91acea);*/
+	border: 1px solid #ddd;
+	padding: 25px 40px;
+	margin-bottom: 70px;
+	box-shadow: 0 5px 30px -5px #ccc;
+	position: relative;
+	-webkit-transition: .3s;
+	transition: .3s;
+	text-align: center;
+	padding-top: 150px;
+	color: white;
+}
+
+.construction {
+	background-image: linear-gradient(#fbf8ef 40% ,black 20%, #f1b409);
+}
+.automation {
+	background-image: linear-gradient(#e6efdfb3 40% , black 20%, #d6f52f);
+}
+.bangladesh {
+	background-image: linear-gradient(#eee9ef 40% , black 20%, #e62b7f);
+}
+.style-9 .single-service img {
+	position: absolute;
+	/*width: 50%;*/
+	left: 30%;
+    right: 41%;
+    top: 10%;
+}
+
+
+.style-9 .single-service:hover i.fa {
+	background-color: #0bbbc1;
+	border-color: #0bbbc1;
+	color: #fff;
+
+}
+.style-9 .single-service h3 {
+	position: relative;
+	font-weight: 400;
+	margin-top: 0px;
+	padding-top: 35px;
+	font-size: 22px;
+}
+.style-9 .single-service p {
+	font-weight: 600;
+	color: #fff;
+}
+
+.style-9 .single-service img {
+  -webkit-transition:.4s;
+  transition: .4s;
+}
+
+/* End Service Style 9 Css */
+
+/*-- Media Queries Ends Here ---*/
