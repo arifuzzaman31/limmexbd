@@ -54,7 +54,7 @@ a.border-btn {
   z-index:10
 }
 
-a.border-btn:before {
+/*a.border-btn:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -67,12 +67,22 @@ a.border-btn:before {
   transition: .4s;
   visibility: hidden;
   z-index:-1
-}
+}*/
 a.border-btn:hover {
   visibility:visible;
   top: 0;
   text-decoration: none;
 
+}
+.automation_btn:hover {
+
+	background: #fff !important;
+	color: green !important;
+}
+.bd_btn:hover {
+
+	background: #fff !important;
+	color: #e62b7f !important;
 }
 .single-service h3 {
 	font-weight: 600;
@@ -89,10 +99,12 @@ img {
     height: auto;
     /*text-align: center;*/
 }
+
+
 /* Service Style 9 Css */
 .style-9 .single-service {
 	/*background-image: linear-gradient(#f7f6f3 40%, #066c84 20%,#91acea);*/
-	border: 1px solid #ddd;
+	/*border: 1px solid #ddd;*/
 	padding: 25px 40px;
 	margin-bottom: 70px;
 	box-shadow: 0 5px 30px -5px #ccc;
@@ -102,11 +114,18 @@ img {
 	text-align: center;
 	padding-top: 150px;
 	color: white;
+
+}
+.single-service:hover{
+box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 
 .construction {
 	background-image: linear-gradient(#fbf4e0 40% ,black 20%, #f1b409);
+	 transition: 0.3s
 }
+
+
 .automation {
 	background-image: linear-gradient(#e6efdfb3 40% , black 20%, #d6f52f);
 }
