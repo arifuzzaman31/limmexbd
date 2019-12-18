@@ -105,7 +105,7 @@ img {
 }
 
 .construction {
-	background-image: linear-gradient(#fbf8ef 40% ,black 20%, #f1b409);
+	background-image: linear-gradient(#fbf4e0 40% ,black 20%, #f1b409);
 }
 .automation {
 	background-image: linear-gradient(#e6efdfb3 40% , black 20%, #d6f52f);
@@ -152,12 +152,12 @@ img {
 }
 .footer-top{
 	margin-top:10px;	
-	padding:50px 0px 30px 0px;
+	padding:16px 0px 12px 0px;
 	text-align: center;
 }
 .footer-top p{
 	 color:#fff;
-	 font-size: 16px;
+	 font-size: 17px;
 	 font-family: 'Open Sans', sans-serif;
 	 font-weight: 400;
 }
