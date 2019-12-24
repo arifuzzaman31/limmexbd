@@ -175,6 +175,7 @@ box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !importa
   	bottom: 0;
   	width: 100%;
 	position: fixed;
+	z-index: 111;
 	background:#2C3E50;    	    
 }
 .footer-top{
