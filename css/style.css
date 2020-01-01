@@ -87,7 +87,7 @@ a.border-btn:hover {
 .construction_btn:hover {
 
 	background: #fff !important;
-	color: #e62b7f !important;
+	color: #fcad17 !important;
 }
 .single-service h3 {
 	font-weight: 600;
@@ -192,22 +192,23 @@ box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !importa
 .footer-top p:first-child {
 	 color:#fff;
 	 line-height: 0px;
-	 font-size: 12px;
+	 /*font-size: 16px;*/
 	 font-family: 'Open Sans', sans-serif;
 	 font-weight: 200;
 }
 .footer-top p:nht-child(2) {
 	 color:#fff;
-	 font-size: 12px;
+	 font-size: 13px;
 	 line-height: 0px;
 	 font-family: 'Open Sans', sans-serif;
 	 font-weight: 200;
 }
 .footer-top p a{
-	color: #1abc9c;
+	color: #fff;
 	outline:none;
 	text-decoration:none;
 }
+
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -221,10 +222,5 @@ box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !importa
 	text-indent: 100%;
 	background: url(../images/top_move.png) no-repeat 0px 0px;
 }
-.footer-top p {
-	
-	}
-.footer-top {
-		
-	}
+
 /*-- Media Queries Ends Here ---*/
